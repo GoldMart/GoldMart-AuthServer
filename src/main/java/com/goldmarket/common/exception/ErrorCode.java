@@ -18,6 +18,16 @@ public enum ErrorCode {
     MISSING_PARAMETER_EXCEPTION(HttpStatus.BAD_REQUEST, "필수 요청 값이 누락되었거나 잘못되었습니다."),
 
     /**
+     * 401 Unauthorized
+     */
+    INVALID_TOKEN_UNAUTHORIZED(HttpStatus.UNAUTHORIZED, "유효하지 않은 토큰입니다."),
+
+    /**
+     * 403 - Forbidden
+     */
+    ACCESS_FORBIDDEN(HttpStatus.FORBIDDEN, "서비스 회원이 아닙니다. 이메일 인증을 먼저 해주세요."),
+
+    /**
      * 500 - Internal Server Error
      */
     INTERNAL_SERVER_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "서버 에러가 발생했습니다.")

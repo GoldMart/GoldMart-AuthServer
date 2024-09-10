@@ -1,2 +1,2 @@
 INSERT IGNORE INTO member (id, name, password)
-VALUES (1, 'gold', '83d6fddf033b3ed08b4fe3cc0e6cb2d848fba373bc340190050630c7a8e7de4d');
+VALUES (1, 'gold', '$2a$10$cAz0EmZYfqzngI46j91lX.GdJ9hlmYbMsOa5Esr0Hh.rwyfDb8dYW');
